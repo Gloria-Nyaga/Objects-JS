@@ -80,8 +80,8 @@ const car = {
 
 car.age = function() {
     currentYear = new Date().getFullYear();
-    carAge = currentYear - car.year;
-    return carAge
+    newCarAge = currentYear - car.year;
+    return newCarAge
 }
 
  
